@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle,rgb(132, 0, 255),rgb(116, 0, 170));
+}
+
+.Head{
+    text-align: center;
+}
+
+.About{
+    border: 5px;
+    border-radius: 15px;
+    background-color: rgb(61, 0, 110);
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.Socials{
+    margin-right: 10px;
+    transform: scale(0.1);
+}

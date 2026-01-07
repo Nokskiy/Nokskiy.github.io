@@ -1,24 +1,27 @@
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(circle,rgb(132, 0, 255),rgb(116, 0, 170));
+html{
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to bottom,#30005e, #111);
+    min-height: 100vh; 
+    color: azure;
 }
 
-.Head{
+body{
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
-.About{
-    border: 5px;
-    border-radius: 15px;
-    background-color: rgb(61, 0, 110);
-    word-wrap: break-word;
-    white-space: normal;
+section {
+    background: radial-gradient(circle,#555555, #3b3b3b);;
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 30%;
+    padding-left: 30%;
+    display: flex;
+    justify-content: center;
 }
 
-.Socials{
-    margin-right: 10px;
-    transform: scale(0.1);
+.row {
+    display: inline;
+    flex-direction: row;
 }

@@ -22,8 +22,6 @@ class TextEffectsManager {
 
     constructor() {
         this.WriteText("nick");
-        this.WriteText("about-text1");
-        this.WriteText("about-text2");
     }
 }
 

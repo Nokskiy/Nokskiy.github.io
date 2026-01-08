@@ -1,0 +1,12 @@
+.inimated-content-rounded {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.inimated-content-rounded img{
+    transition: all 0.3s ease;
+}
+
+.inimated-content-rounded img:hover{
+    scale: 1.3;
+}

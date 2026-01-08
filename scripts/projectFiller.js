@@ -16,6 +16,6 @@ async function ReadJson(){
 ReadJson().then(data => {
     document.getElementById("project-name").textContent = data.name;
     document.getElementById("project-status").textContent = data.status;
-    document.getElementById("project-developers").textContent = data.developers;
+    document.getElementById("project-devs").textContent = data.devs;
     document.getElementById("project-text").textContent = data.text;
 });

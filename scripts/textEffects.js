@@ -27,3 +27,15 @@ class TextEffectsManager {
 
 var textEffectsManager = new TextEffectsManager();
 
+function CheckAdaptive()
+{
+    console.log(window.innerWidth);
+    if(window.innerWidth >= 1280)
+        textEffectsManager.SetText("adaptive-joke", "Футер сайтека");
+    else
+        textEffectsManager.SetText("adaptive-joke", "Адаптиву сделал");
+}
+
+window.innerWidth = 1280;
+
+window.addEventListener("resize",CheckAdaptive());

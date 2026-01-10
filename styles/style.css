@@ -18,7 +18,10 @@
   --card-background-static2: #584866; 
 
   --card-background-hover1: #584866; 
-  --card-background-hover2: #900add; 
+  --card-background-hover2: #900add;
+  
+  --card-background-hover-best1: #ff00ffaf; 
+  --card-background-hover-best2: #e5ff00a9; 
 
   --text-color: azure;
 }

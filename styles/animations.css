@@ -9,3 +9,19 @@
 .inimated-content-rounded img:hover{
     scale: 1.3;
 }
+
+.inimated-content-rounded img.profile-img:hover{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.card:hover {
+    background: linear-gradient(180deg,var(--card-background-hover1), var(--card-background-hover2));
+    transform: translateY(15px);
+}
+
+.best:hover {
+    margin-bottom: 50px;
+
+    background: linear-gradient(180deg,var(--card-background-hover-best1), var(--card-background-hover-best2));
+}
